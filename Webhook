@@ -101,11 +101,3 @@ if #WebhookURL ~= 0 then
       })
    end)
 end
-
-
-
-local gyasacs = Player.LocalPlayer.PlayerFolder.Inventory:FindFirstChild("GyaSacs")
-local gyasacsvalue = GyaSacs.Value
-if gyasacs then
-   print("GyaSacs:", gyasacsvalue)
-end
